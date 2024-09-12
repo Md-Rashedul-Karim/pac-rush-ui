@@ -1,0 +1,573 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.logo-panel {
+	margin-top: 90px;
+	margin-bottom: 135px;
+}
+
+p,
+a,
+li,
+span,
+label {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+}
+
+ul li {
+	list-style-type: none;
+}
+/*====================================== Category */
+.cat-banner-image{
+background-image: url('../images/top-bg.png');
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-position: top center;
+border-radius: 0 0 10px 10px;
+/* height: 200px; */
+}
+
+#top-panel .card
+{
+	border: none !important;
+}
+
+#top-panel .col-12.sm-12
+ {
+	margin: 0px;
+	padding: 0px;
+}
+
+#top-panel .card-img-overlay {
+	padding: 0rem;
+}
+
+p.quiz-text {
+	margin-top: 4%;
+	color: #fff;
+	font-weight: bold;
+	font-size: 6.2vw;
+	padding-bottom: 3%;
+	padding-right: 5%;
+
+}
+#middel-box{
+	background-color: #e3e3e3;
+	padding: 20px 10px 0px 10px;
+	/* border-radius: 10px; */
+	box-shadow: #ccc 2px 4px 5px;
+	margin-bottom: 10%;
+}
+#middel-box figure{
+	margin-bottom:0px ;
+	padding-bottom: 0px;
+}
+#middel-box figure img{
+	width: 100%;
+}
+h2.text-center.d-block.font-weight-bold {
+    width: 32%;
+    margin: 0 auto;
+    border-left: #db126b solid 4px;
+	font-size: 2.5vw;
+}
+.score-time {
+    background-color: #002aff;
+    border-radius: 10px;
+    padding: 0px 5px;
+	position: relative;
+    /* width: 88%; */
+    bottom: 60px;
+	
+}
+.score-time p{
+	margin-bottom: 0px;
+	padding: 11% 5px 5% 5px;
+	font-size: 20px;
+}
+.play-buttton {
+    position: relative;
+    bottom: 108px;
+    display: block;
+    text-align: center;
+}
+p#myBtn {
+    margin-bottom: -7%;
+}
+.terms-leader {
+    position: relative;
+    bottom: 35px;
+}
+.terms-banner-image,
+.condition-banner-image{
+	background-color: #db126b;
+	border-radius: 10px;
+}
+.terms-banner-image p{
+	font-size: 18px;
+    padding: 1% 0;
+    margin-bottom: 0px;
+}
+
+.condition-banner-image a{
+	font-size: 18px;
+    padding: 1% 0;
+}
+.terms-leader .card{
+	margin-bottom: 2%;
+	background-color:rgba(0, 0, 0, 0);
+	border-radius: unset;
+	border: none;
+}
+/* Pop up */
+.popup-top-icon{
+	text-align: center;
+    display: block;
+    margin: -60px auto;
+}
+.body-part-one{
+	background-color: #d5d5d5;
+	padding: 15px 15px 45px 15px;
+	border-radius: 10px;
+}
+.body-part-two{
+	background-color: #d5d5d5;
+	padding: 15px 15px 25px 15px;
+	border-radius: 10px;
+}
+.left-side-box,
+.right-side-box{
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 10px;
+}
+.left-side-box .left-score-time{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0px 5px;
+	position: relative;
+    /* width: 88%; */
+    bottom:-12%;
+	
+}
+.right-side-box .right-score-time {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0px 5px;
+	position: relative;
+    /* width: 88%; */
+    bottom:0%;
+	
+}
+.left-side-box .left-score-time p,
+.right-side-box .right-score-time p{
+	margin-bottom: 0px;
+	padding: 11% 5px 5% 5px;
+}
+
+.left-side-box .win-cash{
+	border: #ccc solid 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    margin: 5% auto -2% auto;
+    text-align: center;
+    display: block;
+    padding-top: 6%;
+    font-weight: bold;
+    font-size: 30px;
+	box-shadow: #ccc 2px 1px 14px;
+}
+.right-side-box .win-cash{
+	border: #ccc solid 2px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    margin: 5% auto 5% auto;
+    text-align: center;
+    display: block;
+    padding: 10%;
+    font-weight: bold;
+    font-size: 30px;
+	box-shadow: #ccc 2px 1px 14px;
+}
+.left-play-buttton p{
+	   margin-bottom: 0px;
+	    padding: 2.5% 0;
+
+}
+.left-play-buttton {
+    position: relative;
+    top: 25%;
+    background: #db126b;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: #fff;
+    border: solid #ccc 2px;
+}
+.right-side-box .right-play-buttton {
+    position: relative;
+    bottom: 0px;
+    display: block;
+    text-align: center;
+	top: 10%;
+	background: #db126b;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	color: #fff;
+	border: solid #ccc 2px;
+}
+.right-side-box .right-play-buttton a{
+	padding: 2% 0;
+}
+.prize {
+    background-color: #db126b;
+    width: 25%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.prize h3{
+    padding: 4px 20px 9px;
+	font-size: 20px;
+}
+.score-money{
+	background-color: #fff;
+	border-radius: 10px;
+}
+.score-money p{
+	padding: 20px 14px 10px 10px;
+    margin-bottom: 0px;
+}
+.prize-taka p{
+    border: #ccc solid 1px;
+    padding: 5px 27px;
+    border-radius: 10px;
+    margin: 11px;
+    box-shadow: #ccc 0px 1px 7px;
+}
+.play-btn-click{
+	background: #db126b;
+	border-radius: 10px;
+	border: solid #ccc 2px;
+	margin-top: 7%;
+}
+.play-btn-click a{
+	padding: 10px  15px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+}
+.scroll-body{
+	/* overflow-x:scroll;
+	height: 100px; */
+
+}
+
+.bottom-banner img{
+	display: block;
+	margin:  0 auto;
+	width: 100%;
+}
+
+/* ================================Custom Responsive ============================= */
+
+
+@media screen and (max-width: 1280px) {
+	
+
+}
+
+@media screen and (max-width: 1024px) {
+	h2.text-center.d-block.font-weight-bold {
+   		 width: 41%;
+    }
+	.popup-top-icon{
+		width: 30%;
+	}
+	.popup-top-icon img {
+		width: 100%;
+		margin-bottom: 13%;
+	}
+
+	.left-play-buttton {    
+			top: 19%;
+	}
+}
+
+
+@media screen and (max-width: 920px) {
+	
+	h2.text-center.d-block.font-weight-bold {
+   		 width: 40%;
+		 font-size: 3vw;
+    }
+}
+
+
+@media screen and (max-width: 860px) {   
+.left-play-buttton {    
+		top: 14%;
+	}
+	.play-btn-click a {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 769px) {
+	.popup-top-icon{
+		width: 60%;
+	}
+	.modal-body {
+		margin-top: 5%;
+	}
+	.popup-top-icon img {
+		width: 100%;
+		margin-bottom: 13%;
+	}
+	.left-side-box .left-score-time p, 
+	.right-side-box .right-score-time p {
+	
+		font-size: 1.9vw;
+	}
+	.popup-top-icon img {
+		width: 62%;
+		margin-bottom: 13%;
+	}
+
+
+}
+@media screen and (max-width: 577px) {
+	.body-part-one{
+		margin-top: 4%;
+	}
+	.body-part-one h2{
+		font-size: 28px;
+		margin-bottom: 22px !important;
+	}
+	.score-time {
+		bottom: 38px;
+	}
+	.score-time p{
+		font-size: 16px;
+	}
+	.left-side-box .win-cash {
+		font-size: 25px;
+	}
+	.left-side-box .left-score-time p, 
+	.right-side-box .right-score-time p {
+		font-size: 3vw;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+	h2.text-center.d-block.font-weight-bold {
+		width: 50%;
+        font-size: 3.5vw;
+	}
+	.right-score-time .mr-auto,	
+	.left-score-time .mr-auto, 
+	.right-score-time .mx-auto,
+	.left-score-time .mx-auto,
+	.right-score-time .col-auto,
+	.left-score-time .col-auto
+
+	{
+		margin-right: 0 !important;
+		padding: 0 !important;
+
+	}
+	.body-part-one h2 {
+		font-size: 25px;
+	}
+	.left-side-box .win-cash {
+		font-size: 4vw;
+		padding: 12px 0 0 0;
+	}
+	.right-side-box .win-cash {  
+		font-size: 6vw;
+	}
+	.score-time {
+		bottom: 35px ;
+	}
+	.play-buttton {
+		bottom: 80px;
+		
+	}
+	.score-time p {
+		font-size: 15px;
+	}
+	.left-play-buttton {
+		top: 21%;
+	}
+	.left-play-buttton p {
+		margin-bottom: 0px;
+		padding: 4.5% 0;
+		font-size: 3.1vw;
+	}
+	.right-side-box .right-play-buttton{
+		top:15%;
+	}
+	.score-money p {
+		font-size: 3vw;
+		padding: 10px 14px 10px 10px;
+	}
+	.prize h3 {
+		font-size: 3.8vw;
+		padding: 8px 18px 7px;
+	}
+	.prize-taka p {
+		font-size: 3vw;
+		padding: 4px 27px;
+    	margin: 5px 9px 2px 1px;
+	}
+	.play-btn-click a {
+		font-size: 3.2vw;
+	}
+
+}
+
+@media screen and (max-width:390px) {
+	.left-side-box .left-score-time p, .right-side-box .right-score-time p {
+    font-size: 2.8vw;
+}
+	
+}
+
+@media screen and (max-width:360px) {
+	
+}
+@media screen and (max-width:320px) {
+
+}
+/* ==================================== Modal=================== */
+ /* The Modal (background) */
+#myModal.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  -webkit-animation-name: fadeIn; /* Fade in the background */
+  -webkit-animation-duration: 0.4s;
+  animation-name: fadeIn;
+  animation-duration: 0.4s
+}
+
+/* Modal Content */
+#myModal .modal-content {
+  /* position: fixed; */
+  bottom: 0;
+  background-color: #ececec;
+  width: 100%;
+  -webkit-animation-name: slideIn;
+  -webkit-animation-duration: 0.4s;
+  animation-name: slideIn;
+  animation-duration: 0.4s;
+  margin: 0 auto;
+}
+
+/* The Close Button */
+#myModal .close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+#myModal .close:hover,
+#myModal.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+#myModal .modal-content{
+  /* width: 82%; */
+  margin-top: 25%;
+
+}
+
+#myModal .modal-header {
+  padding: 2px 16px;
+  border-bottom: none;
+}
+#myModal .modal-header .close{
+  margin: 0px;
+  color: #fff;
+}
+
+#myModal .modal-body {
+  padding: 2px 16px;
+  margin-top: 10%;
+}
+
+#myModal .modal-footer {
+  padding: 0px;
+  color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes slideIn {
+  from {bottom: -300px; opacity: 0} 
+  to {bottom: 0; opacity: 1}
+}
+
+@keyframes slideIn {
+  from {bottom: -300px; opacity: 0}
+  to {bottom: 0; opacity: 1}
+}
+
+@-webkit-keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+/* ================= */
+#staticBackdrop .modal-header{
+  background-color: #db126b;
+  color: #fff;
+  padding: 2% 5%;
+}
+#staticBackdrop  .modal-body li{
+padding-bottom: 3%;;
+}
+#staticBackdrop .modal-header .close{
+  color: #fff;
+}
+/* =========================== */
+#score .modal-content .modal-header{
+	  background-color: #db126b;
+  color: #fff;
+  padding: 2% 5%;
+}
+#score .modal-body {
+	margin-top: 0px;
+
+}
+#score .modal-header .close{
+  color: #fff;
+}
