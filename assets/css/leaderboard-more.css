@@ -3,14 +3,14 @@
 .leaderboard-bg{position:relative;background-color:#7d36f1}
 #bg_img{position:absolute;top:2vh;right:.5vw;mix-blend-mode:soft-light}
 .leaderboard-position{padding-top:3rem;padding-bottom:2rem}
-#pills-tabContent{background-color:#f1f3ff;border-radius:1rem;margin-top:3vh}
-.col-1.arrow-icon a{font-size:2.5rem;color:#fff}
+#pills-tabContent{background-color:#efeefc;border-radius:1rem;margin-top:3vh;padding-bottom:1vh}
+.arrow-icon a{font-size:2.5rem;color:#fff}
 #top-leaderbord .nav-pills .nav-link{color:#fff;font-size:1.4rem}
 #top-leaderbord a img{padding:10% 2% 20% 10%}
 #top-leaderbord ul{background-color:rgba(97,43,195,.3);color:#fff;border-radius:10px;font-weight:700;padding:.5rem;display:flex;justify-content:center;align-items:center}
 #top-leaderbord li.nav-item{width:50%;margin:0 auto;position:relative;padding:0;text-decoration:none;display:inline-block}
 #top-leaderbord .nav-pills .nav-link.active,#top-leaderbord .nav-pills .show>.nav-link{background:#a670ff;color:#fff;background-size:inherit;border-radius:10px}
-.nav-link.active::after{content:'';position:absolute;bottom:-1vh;left:0;width:100%;height:4vh;background:url(/assets/images/active-bg.png) no-repeat 0vw 0vh;transform:translate(10vw,4.5vh);background-size:auto;z-index:9}
+.nav-link.active::after{content:'';position:absolute;bottom:-1vh;left:0;width:100%;height:4vh;background:url(../images/active-bg.png) no-repeat 0vw 0vh;transform:translate(10vw,4.5vh);background-size:auto;z-index:9}
 #top-leaderbord .nav-item.active::after,#top-leaderbord .nav-item:hover::after{width:100%}
 #top-leaderbord .card{border-radius:10px 10px 10px 10px;background-color:#e8e8e8}
 #top-leaderbord .card .card-body.text-center{background:#007f5f;border-radius:10px 10px 10px 10px}
@@ -51,5 +51,4 @@
 #score-panel .card-header{padding:0;background-color:rgba(0,0,0,.03);border-bottom:none;margin-bottom:0}
 #score-panel .nav-tabs .nav-item.show .nav-link,#score-panel .nav-tabs .nav-link.active{color:#fff;background-color:#19aaf8;border-radius:10px}
 #score-panel .nav-tabs .nav-link{border:1px solid transparent;background-color:#969696;margin-right:5px;border-radius:10px;color:#fff;padding:8px 10px;font-size:calc(.9rem + 0vmin)}
-.col-4.arrow-icon{padding:0}
 #score-panel .nav{display:-ms-flexbox;display:-webkit-inline-box;-ms-flex-wrap:wrap;flex-wrap:nowrap!important;padding-left:0;margin-bottom:-17px;list-style:none;overflow-x:auto;width:100%;border:none;overflow-y:hidden;margin:6px auto;background-color:#e8e8e8}
