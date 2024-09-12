@@ -1,0 +1,589 @@
+body {
+	font-family: "Inter", sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+p,
+a,
+li,
+span,
+label {
+	font-family: "Inter", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Inter", sans-serif;
+}
+
+ul li {
+	list-style-type: none;
+}
+.wrapper{
+	background-color: #7d36f1;
+
+}
+/*====================================== Container */
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+/*====================================== Header */
+.header {
+	background-color: #db126b;
+	padding: 10px 0px;
+}
+/*====================================== Category */
+.cat-banner-image {	
+    border-radius: 0 0 20px 20px;
+    height: 8vh;
+    background-color: #db126b;
+	border: #b9b9b9 solid 1px;
+}
+/*====================================== Slider */
+p.quiz-text {
+    position: absolute;
+    right: 0;
+    bottom: 1rem;
+    padding-right: 15px;
+}
+.time-score-button{
+	position:absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	right: 50%;
+}
+
+.bottom-panel{
+	background-color: #fff;
+}
+#top-panel .card {
+	border: none !important;
+	background-color:rgba(0, 0, 0, 0) !important;
+}
+
+#top-panel .col-12.sm-12 {
+	margin: 0px;
+	padding: 0px;
+}
+
+#top-panel .card-img-overlay {
+	padding: 0rem;
+}
+
+
+
+#middel-box {
+    border-radius: 10px;
+    width: 100%;
+    height: 35vh;
+    background-color: #f0c75e;
+    margin: 0 auto;
+    /* background-color: #e3e3e3; */
+    /* padding: 20px 10px 0px 10px; */
+    /* box-shadow: #ccc 2px 4px 5px; */
+    /* margin-bottom: 10%; */
+}
+
+#middel-box figure {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#middel-box figure img {
+	width: 100%;
+}
+
+h2.text-center.d-block.font-weight-bold {
+	/* width: 32%; */
+	margin: 0 auto;
+	/* border-left: #db126b solid 4px; */
+	font-size: 3.5rem
+	
+}
+.bangla-text {
+    margin-top: 2rem;
+}
+.bangla-text p{
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+.time-score-panel {
+	display: flex;
+	justify-content: center; /* Horizontally center the buttons */
+	gap: 20px; /* Add space between the buttons */
+	margin-bottom: 2rem; /* Optional: Add some space from the top */
+	width: 100%;
+  }
+
+.score-time {
+	width: 15rem;
+	 background-color: #612bb9;
+	border-radius: 10px;
+	padding: 0px 5px;
+	 /* cursor: pointer; */
+	 border: #ccc solid 1px;
+	/* width: 88%; */
+	/* bottom: 60px; */
+
+}
+
+.score-time p {
+	margin-bottom: 0px;
+	padding: 5% 0px 5% 0px;
+	font-size: 20px;
+}
+
+
+/********************************* type text animation css */
+.output {
+	text-align: left;
+	font-family: "Inter", sans-serif;
+	color: white;
+
+	p {
+	   font-size: 1.5rem;
+	   font-weight: 600;
+	}
+ }
+
+ /* Cursor Styling */
+
+ .cursor::after {
+	content: '';
+	display: inline-block;
+	margin-left: 3px;
+	background-color: white;
+	animation-name: blink;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+ }
+
+ h1.cursor::after {
+	height: 24px;
+	width: 13px;
+ }
+
+ p.cursor::after {
+	height: 13px;
+	width: 6px;
+ }
+
+ @keyframes blink {
+	0% {
+	   opacity: 1;
+	}
+
+	49% {
+	   opacity: 1;
+	}
+
+	50% {
+	   opacity: 0;
+	}
+
+	100% {
+	   opacity: 0;
+	}
+ }
+ /*******************/
+
+/* .terms-leader {
+	position: relative;
+	bottom: 35px;
+} */
+ 
+.button-box{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 450px;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+p.cursor{
+	height: 3vh;
+	font-size: clamp(1.2rem, 3vw, 1.5rem); /* Minimum of 1.5rem, max of 3rem, and fluid scaling in between */
+}
+/* ============== Mybtn ============== */
+.play-btn-panel{	
+    background-color: #fff;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px 5px;
+    margin-top: 2rem;
+}
+
+.play-buttton {
+	/* position: relative; */	
+	display: block;
+	text-align: center;
+}
+p#myBtn {
+	background-color: #7d36f1;
+    border: #6100ff solid 1px;
+    color: white;
+    /* padding: 10px 20px; */
+    text-align: center;
+    text-decoration: none;
+    display: inherit;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    
+    margin-bottom: 5rem;
+	transition: transform 0.3s ease; 
+	animation: pulse 2s infinite;
+}
+@keyframes pulse {
+	0% {
+	  transform: scale(1);
+	  background-color: #7d36f1;
+	}
+	50% {
+	  transform: scale(1.05);
+	  background-color: #db126b;
+	  box-shadow: #393939 0px 10px 10px;
+	  border: #db126b solid 1px;
+	}
+	100% {
+	  transform: scale(1);
+	  background-color: #7d36f1;
+	}
+  }
+.playbtn{
+	font-size: 2.1rem;
+}
+p#myBtn:hover {	
+	transform: scale(1.1); 
+}
+/* =============================== */
+.tril-btn{
+	background-color: #bdbdbd;
+	/* width: 60vw; */
+	margin: 1rem auto 2rem auto;
+	font-size: 1.5rem;
+}
+.play-for-tk-btn { 
+	background-color: #7d36f1;
+	/* width: 60vw; */
+	margin: 0 auto;
+	font-size: 1.5rem;
+}
+.tril-btn a,
+.play-for-tk-btn a{
+	color: #fff;
+	font-weight: 600;
+}
+.tril-btn:hover,
+.play-for-tk-btn:hover{ 
+	transform: scale(1.1); /* Button grows slightly */
+}
+.tril-btn,
+.play-for-tk-btn { 
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inherit;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: #393939 0px 10px 10px;
+    transition: all .2s;
+    transition: transform 0.3s ease
+
+}
+/*====================================== Footer */
+.footer {
+	background-color: #db126b;
+	padding: 10px 0px;
+}
+.leaderboard-rule-panel{
+	margin-top: 3vh;
+	margin-bottom: 2vh;
+}
+.turnament-btn,
+.leaderboard-btn {
+	background-color: #fff;
+	border-radius: 10px;
+    box-shadow: #222 0px 5px 8px;
+	border: #000 solid 1px;
+	transition: transform 0.3s ease; /* Smooth transition */
+}
+.leaderboard-btn:hover,
+.turnament-btn:hover{
+	transform: scale(1.1); /* Button grows slightly */
+}
+
+.turnament-btn h2 {
+	font-size: 1.6rem;
+	padding: 1rem 0;
+	margin-bottom: 0px;
+	font-weight: 600
+}
+
+.turnament-btn p.d-block.text-center {
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	margin-bottom: 0px;
+	font-weight: 600;
+	background: none;
+}
+.leaderboard-btn a {
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	color: #000;
+	font-weight: 600;
+}
+
+
+.terms-leader .card {
+	margin-bottom: 2%;
+	background-color: rgba(0, 0, 0, 0);
+	border-radius: unset;
+	border: none;
+}
+
+/* Pop up */
+.popup-top-icon {
+	text-align: center;
+	display: block;
+	margin: -8vh auto;
+	/* margin: -60px auto; */
+}
+
+.body-part-one {
+	background-color: #fff;
+	padding: 15px 15px 45px 15px;
+	border-radius: 20px;
+	margin-bottom: 2rem !important;
+}
+
+.body-part-two {
+	background-color: #fff;
+	padding: 15px 15px 25px 15px;
+	border-radius: 20px;
+}
+
+.left-side-box,
+.right-side-box {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+.left-side-box .left-score-time {
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 0px 5px;
+	position: relative;
+	/* width: 88%; */
+	bottom: -12%;
+
+}
+
+.right-side-box .right-score-time {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 0px 5px;
+	position: relative;
+	/* width: 88%; */
+	bottom: 0%;
+
+}
+
+.left-side-box .left-score-time p,
+.right-side-box .right-score-time p {
+	margin-bottom: 0px;
+	padding: 11% 5px 5% 5px;
+}
+
+.left-side-box .win-cash {
+	border: #ccc solid 2px;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 80%;
+	margin: 5% auto -2% auto;
+	text-align: center;
+	display: block;
+	padding-top: 6%;
+	font-weight: bold;
+	font-size: 30px;
+	box-shadow: #ccc 2px 1px 14px;
+}
+
+.right-side-box .win-cash {
+	border: #ccc solid 2px;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 80%;
+	margin: 5% auto 5% auto;
+	text-align: center;
+	display: block;
+	padding: 10%;
+	font-weight: bold;
+	font-size: 30px;
+	box-shadow: #ccc 2px 1px 14px;
+}
+
+.left-play-buttton p {
+	margin-bottom: 0px;
+	padding: 2.5% 0;
+
+}
+
+.left-play-buttton {
+	position: relative;
+	top: 25%;
+	background: #db126b;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	color: #fff;
+	border: solid #ccc 2px;
+}
+
+.right-side-box .right-play-buttton {
+	position: relative;
+	bottom: 0px;
+	display: block;
+	text-align: center;
+	top: 10%;
+	background: #db126b;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 10px;
+	color: #fff;
+	border: solid #ccc 2px;
+}
+
+.right-side-box .right-play-buttton a {
+	padding: 2% 0;
+}
+
+.prize {
+	background-color: #f0c75e;		
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inherit;
+    border-radius: 10px;
+    width: 20dvw;
+    margin: 2rem auto 3rem;
+	border: #000 2px;
+	border-style: dashed dashed solid solid;
+}
+
+
+.prize h3 {
+	font-size: 1.5rem;
+	color: #000;
+	margin: 0px;
+}
+
+.score-money {
+	background-color: #efeefc;
+	border-radius: 10px;
+}
+
+.score-money p {
+	padding: 1.3rem 0rem 0 2rem;
+	margin-bottom: 0px;
+}
+
+.prize-taka p {
+    border: #ccc solid 1px;
+    padding: 5px 2px;
+    border-radius: 10px;
+    margin: 1rem;
+    box-shadow: #ccc 0px 1px 7px;
+    width: 10vw;
+    text-align: center;
+	color: #7d36f1;
+}
+.score-prize{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+/* .play-btn-click {
+	background: #db126b;
+	border-radius: 10px;
+	border: solid #ccc 2px;
+	margin-top: 7%;
+}
+
+.play-btn-click a {
+	padding: 10px 15px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+} */
+
+.scroll-body {
+	/* overflow-x:scroll;
+	height: 100px; */
+
+}
+
+.bottom-banner img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+/* ================= */
+#staticBackdrop .modal-header {
+	background-color: #db126b;
+	color: #fff;
+	padding: 2% 5%;
+}
+
+#staticBackdrop .modal-body li {
+	padding-bottom: 3%;
+	font-size: 1.5rem;
+}
+
+#staticBackdrop .modal-header .close {
+	color: #fff;
+}
+
+/* =========================== */
+#score .modal-content .modal-header {
+	background-color: #db126b;
+	color: #fff;
+	padding: 2% 5%;
+}
+
+#score .modal-body {
+	margin-top: 0px;
+
+}
+
+#score .modal-header .close {
+	color: #fff;
+}
+/*********************************** time section*/
+.time-section {
+	display: inline-block;
+	text-align: center;
+ } 
+
+ #staticBackdrop .modal-dialog.modal-dialog-scrollable {
+	max-width: 95vw;
+ }
+ h5#staticBackdropLabel {
+	font-size: 2rem;
+ }

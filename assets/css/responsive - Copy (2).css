@@ -1,0 +1,251 @@
+
+@media screen and (min-width: 1440px) {
+	#top-leaderbord .nav-pills .nav-link.active, #top-leaderbord .nav-pills .show>.nav-link {
+		background: #a670ff;
+		color: #fff;
+		background-size: inherit;
+		border-radius: 10px;
+	}
+	.nav-link.active::after {	
+		transform: translate(7vw, 4.9vh);	
+	}
+}
+@media screen and (min-width: 1360px) and (max-width: 1439.98px) {
+	#top-leaderbord .nav-pills .nav-link.active, #top-leaderbord .nav-pills .show>.nav-link {
+		background: #a670ff;
+		color: #fff;
+		background-size: inherit;
+		border-radius: 10px;
+	}
+	.nav-link.active::after {	
+		transform: translate(13vw, 4.9vh);	
+	}
+}
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1359.98px){ 
+	#top-leaderbord .nav-pills .nav-link.active, #top-leaderbord .nav-pills .show>.nav-link {
+		background: #a670ff;
+		color: #fff;
+		background-size: inherit;
+		border-radius: 10px;
+	}
+	.nav-link.active::after {	
+		transform: translate(13vw, 4.9vh);	
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+	#top-leaderbord .nav-pills .nav-link.active, #top-leaderbord .nav-pills .show>.nav-link {
+		background: #a670ff;
+		color: #fff;
+		background-size: inherit;
+		border-radius: 10px;
+	}
+	.nav-link.active::after {	
+		transform: translate(10vw, 4.9vh);	
+	}
+
+	.prize-taka p{
+		width: 15vw;
+	}
+
+	h2.text-center.d-block.font-weight-bold {
+		/* width: 40%; */
+		/* font-size: 3vw; */
+	}
+ }
+
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+	#top-leaderbord .nav-pills .nav-link.active, #top-leaderbord .nav-pills .show>.nav-link {
+		background: #a670ff;
+		color: #fff;
+		background-size: inherit;
+		border-radius: 10px;
+	}
+	.nav-link.active::after {	
+		transform: translate(10vw, 4.9vh);	
+	}
+	.popup-top-icon {
+		width: 50%;
+	}
+
+	.modal-body {
+		margin-top: 5%;
+	}
+
+	.popup-top-icon img {
+		width: 100%;
+		margin-bottom: 13%;
+	}
+
+	.left-side-box .left-score-time p,
+	.right-side-box .right-score-time p {
+
+		font-size: 1.9vw;
+	}
+
+	.popup-top-icon img {
+		width: 62%;
+		margin-bottom: 13%;
+	}
+
+ }
+
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+	#top-leaderbord .nav-pills .nav-link.active, #top-leaderbord .nav-pills .show>.nav-link {
+		background: #a670ff;
+		color: #fff;
+		background-size: inherit;
+		border-radius: 10px;
+	}
+	.nav-link.active::after {	
+		transform: translate(3vw, 4.9vh);	
+	}
+	.prize-taka p{
+		width: auto;
+		padding: 4px 2rem;
+	}
+	.popup-top-icon {
+		margin: -5vh auto;
+	}
+	.body-part-one {
+		margin-top: 4%;
+	}
+
+	.body-part-one h2 {
+		font-size: 28px;
+		margin-bottom: 22px !important;
+	}
+
+	.score-time {
+		bottom: 38px;
+	}
+
+	.score-time p {
+		font-size: 16px;
+	}
+
+	.left-side-box .win-cash {
+		font-size: 25px;
+	}
+
+	.left-side-box .left-score-time p,
+	.right-side-box .right-score-time p {
+		font-size: 3vw;
+	}
+ }
+
+
+@media only screen and (min-width: 420px) and (max-width: 575.98px) {
+	#top-leaderbord .nav-pills .nav-link.active, #top-leaderbord .nav-pills .show>.nav-link {
+		background: #a670ff;
+		color: #fff;
+		background-size: inherit;
+		border-radius: 10px;
+	}
+	.nav-link.active::after {	
+		transform: translate(10vw, 4.9vh);	
+	}
+	h2.text-center.d-block.font-weight-bold {
+		/* width: 50%; */
+		/* font-size: 3.5vw; */
+	}
+
+	.right-score-time .mr-auto,
+	.left-score-time .mr-auto,
+	.right-score-time .mx-auto,
+	.left-score-time .mx-auto,
+	.right-score-time .col-auto,
+	.left-score-time .col-auto {
+		margin-right: 0 !important;
+		padding: 0 !important;
+
+	}
+
+	.body-part-one h2 {
+		font-size: 25px;
+	}
+
+	.left-side-box .win-cash {
+		font-size: 4vw;
+		padding: 12px 0 0 0;
+	}
+
+	.right-side-box .win-cash {
+		font-size: 6vw;
+	}
+
+	.score-time {
+		bottom: 35px;
+	}
+
+	/* .play-buttton {
+		bottom: 80px;
+
+	} */
+
+	.score-time p {
+		font-size: 15px;
+	}
+
+	.left-play-buttton {
+		top: 21%;
+	}
+
+	.left-play-buttton p {
+		margin-bottom: 0px;
+		padding: 4.5% 0;
+		font-size: 3.1vw;
+	}
+
+	.right-side-box .right-play-buttton {
+		top: 15%;
+	}
+
+	.score-money p {
+		font-size: 3vw;
+		padding: 10px 14px 10px 10px;
+	}
+
+	.prize h3 {
+		font-size: 3.8vw;
+		padding: 8px 18px 7px;
+	}
+
+	.prize-taka p {
+		font-size: 3vw;
+		padding: 4px 27px;
+		margin: 5px 9px 2px 1px;
+	}
+
+	.play-btn-click a {
+		font-size: 3.2vw;
+	}
+ }
+
+
+@media only screen and (max-width: 419.98px) { 
+	#top-leaderbord .nav-pills .nav-link.active, #top-leaderbord .nav-pills .show>.nav-link {
+		background: #a670ff;
+		color: #fff;
+		background-size: inherit;
+		border-radius: 10px;
+	}
+	.nav-link.active::after {	
+		transform: translate(10vw, 4.9vh);	
+	}
+	
+	.nav-link.active::after {	
+		transform: translate(0.9vw, 4.9vh);	
+	}
+
+	.left-side-box .left-score-time p,
+	.right-side-box .right-score-time p {
+		font-size: 2.8vw;
+	}
+}
+
